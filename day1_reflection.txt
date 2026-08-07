@@ -1,0 +1,11 @@
+What did you learn today?
+	I learned about how to use GitHub and Bash, basic git commands, and repositories.
+
+What was the most challenging concept?
+	How to link local repositories(Bash) with remote repositories (on GitHub).
+
+What are you most proud of?
+	Using Bash properly.
+
+What questions do you still have?
+	What is causing my local and remote repositories to not link?

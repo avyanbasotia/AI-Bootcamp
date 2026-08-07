@@ -1,0 +1,64 @@
+Installing Git
+
+Basic Git Commands:
+Pwd: print working directory
+Displays current folder path
+Cd: Change directory
+cd ___: move to a specific folder
+cd .. : move to parent directory
+cd ~ : return to default user profile directory
+cd - : jump back to last folder you were in
+Touch (standard Unix/Linux terminal command): Create empty file
+mkdir: Make Directory; creates a brand new folder with a name you choose.
+
+Git repository: A digital storage space (.git) inside a project folder that tracks all file changes, builds a version history, and manages collaboration
+
+
+
+Git Workflow Stages
+Working Directory -> Staging (git add) -> Local Repo (git commit) -> GitHub
+
+Core Git Commands & Definitions
+
+git init: Creates a hidden working directory (.git folder). This command is used to initialize a brand-new, local Git repository that reads as (main) or (master).
+
+File Creation: Files can be created using the touch command.
+
+git status: Displays the current state of your working directory and staging area.
+git add -A: This command works in combination with git add and git commit to display which files are staged or unstaged.
+git reset: A powerful tool used to undo changes, unstage files, or move your current branch pointer (HEAD) to a specific previous commit.
+git commit -m "your message": Saves your staged changes with a short, custom message directly from the command line.
+
+List all settings: git config --list
+List global settings: git config --global --list
+Set your name: git config --global user.name "Your Name"
+Set your email: git config --global user.email "your.email@example.com"
+Check a specific setting: git config user.name
+Set a default editor: git config --global core.editor "code --wait" (sets VS Code)
+Remove a setting: git config --global --unset user.nam
+
+Essentials in the Homework 
+
+git clone: Copies an existing remote repository from a platform like GitHub or GitLab onto your local computer so you can work on it.
+git status: Displays the current state of your project folder, showing which files are modified, untracked, or prepared for your next save.
+git add .: Stages all modified and new files in your current directory, preparing them to be saved in the next snapshot.
+git commit -m "message": Saves your staged changes permanently to your local project history along with a short descriptive message.
+git push: Uploads your locally saved commits to the remote repository on the internet so your collaborators can see them.
+git pull: Downloads and merges the latest updates from the remote repository into your local files to keep your computer up to date.
+git log: Lists the chronological history of commits in the project, displaying past messages, authors, and unique tracking ID
+Example (Bash)
+
+# 1. Start by getting the latest changes from your team
+git pull
+
+# 2. Check what files you have modified while working
+git status
+
+# 3. Stage all your updates to prepare for saving
+git add .
+
+# 4. Save the snapshot locally with a custom message
+git commit -m "Fix login button styling"
+
+# 5. Send your saved changes up to GitHub/GitLab
+git push
