@@ -1,0 +1,9 @@
+What did you learn today?
+	Learned about the different types of AI and their classifications, and their uses.
+
+What was the most challenging concept?
+	Merging a development branch with the main.
+What are you most proud of?
+	Learning about AI.
+What questions do you still have?
+none
