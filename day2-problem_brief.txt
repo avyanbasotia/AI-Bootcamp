@@ -1,0 +1,2 @@
+Many people struggle to understand what is causing their plant to wilt, often taking improper actions.  Target users: Amateur plant growers.
+My app will allow users to take a close-up photo of the affected leaf. A vision AI identifies the plant species and names the most likely issue along with a 3-step recovery plan.
