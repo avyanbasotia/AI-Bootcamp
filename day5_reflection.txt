@@ -1,0 +1,10 @@
+What did you learn today?
+     Learned about pseudocode, flowcharts, and API's.
+
+What was the most challenging concept?
+     Learning about how to integrate AI into Python code.
+
+What are you most proud of?
+     Pseudocode
+What questions do you still have?
+     None
